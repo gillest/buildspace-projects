@@ -132,7 +132,7 @@ Blockhash and block height are block identifiers used to communicate to the netw
 
 Don't try running this on a loop though - the faucet has a cooldown and the request will fail if you keep spamming it lol.
 
-Make sure you update the `initializeKeypair` function to call the airdrop after you create/fetch the kepair.
+Make sure you update the `initializeKeypair` function to call the airdrop after you create/fetch the keypair.
 ```ts
   // When generating a keypair
   await airdropSolIfNeeded(signer, connection);
